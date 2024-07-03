@@ -1,0 +1,14 @@
+.swiper-button-prev{
+    border:2px solid blue;
+    border-radius:20px;
+}
+.swiper-button-next{
+    border:2px solid blue;
+    border-radius:20px;
+    width: 100px;
+    height: 100px;
+}
+.swiper-button-prev:after{
+    width:10px !important;
+    height: 10px !important;
+}
