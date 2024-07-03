@@ -1,5 +1,5 @@
 import Nav from "./Nav";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 // import Aboutus from "./Aboutus";
 // import Privacy from "./pages/Privacy";
@@ -26,12 +26,12 @@ function App() {
     //     <Route exact path="/bonus" element={<Bonus />} />
     //   </Routes>
     // </BrowserRouter>
-    <BrowserRouter>
+    <Router>
       <Routes>
         <Route exact path="/" element={<CheckHome />} />
         <Route exact path="/about" element={<CheckAbout />} />
       </Routes>
-    </BrowserRouter>
+    </Router>
   );
 }
 
